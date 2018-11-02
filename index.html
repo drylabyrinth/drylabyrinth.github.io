@@ -1,0 +1,44 @@
+---
+title: Welcome to OHSU Computation!
+layout: splash
+classes: wide
+header:
+  overlay_color: "#333"
+  overlay_filter: "0.20"
+  overlay_image: /assets/img/biodataclubphoto.jpg
+excerpt: "Unifying Computational Groups at OHSU"
+intro:
+  -  title: "What is OHSU Computation?"
+     excerpt: "OHSU Computation aims to be a complete resource for potential students and faculty to understand the groups involved in computation at OHSU"
+events:
+  - title: "Events"
+    excerpt: "OHSU Computational Events aims to provide a unified event calendar for events at OHSU"
+people:
+  - title: "People"
+    excerpt: "OHSU Computation consists of many groups, staff, faculty, and students."
+---
+{% include feature_row %}
+
+<a name="about"></a>
+{% include feature_row id="intro" type = "left" %}
+
+<a name="people"></a>
+
+{% include feature_row id= "people" type = "center" %}
+{% assign sorted_people = site.people | sort: 'last_name' %}
+
+<a name="events"></a>
+{% include feature_row id="events" type = "center" %}
+
+{% assign sorted_events = site.events | sort: 'date' %}
+
+
+{% capture now_moment %}{{ "today" | date: '%s' }}{% endcapture %}
+
+{% for event in sorted_events %}
+    {% capture date %}{{ event.date | date: '%s' | plus: 0 }}{% endcapture %}
+     {% if date > now_moment %}
+      {% include events.html %}
+      {% endif %}
+{% endfor %}
+

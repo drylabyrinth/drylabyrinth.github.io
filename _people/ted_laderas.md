@@ -2,7 +2,7 @@
 first_name: Ted 
 last_name: Laderas
 title: "Assistant Professor"
-department: "Medical Informatics and Clinical Epidemiology"
+department: ["DMICE", "Knight Cancer Institute"]
 research_interests: [systems biology, interactive visualization]
 photo: "/assets/img/people/ted_laderas.jpg"
 link: https://laderast.github.io

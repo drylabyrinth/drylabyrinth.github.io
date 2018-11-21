@@ -18,7 +18,7 @@
         <a href="{{ person.url | relative_url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h3>
-    <em>{{ person.title }}, {{ person.department}}</em> <br>
+    <em>{{ person.title }}, {{ person.department | join: ", "}}</em> <br>
     <b>Research Interests:</b> {{ person.research_interests | join: ", " }}<br>
   </article>
 </div>

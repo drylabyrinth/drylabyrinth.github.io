@@ -11,6 +11,7 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 remote_theme           : "mmistakes/minimal-mistakes"
+
 minimal_mistakes_skin    :  "dirt" #"aqua" # "air", "contrast", "dark", , "neon", "mint", "plum", "sunrise"
 
 # Site Settings

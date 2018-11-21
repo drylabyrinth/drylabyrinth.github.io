@@ -6,3 +6,75 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+.grid {
+  display: flex; // our flexbox container
+  margin: .5em -1em .5em -1.5em;
+
+  @media (min-width: 40em) {
+    margin: .5em 0 .5em -.5em;
+    // setting the left margin at -.5em and the right at 0 offsets the grid to account for the gutters
+  }
+}
+
+.grid + .grid {
+  margin-top: -.5em;
+}
+
+%grid-image {
+  flex: 0 auto;
+  margin: 0 auto;
+  padding: .5em 0 0 .5em;
+  width: 100%;
+
+  @media (min-width: 40em) {
+    flex: 0; // flex-basis set at 0 rather than 100%
+  }
+}
+
+// register all possible ratios
+.grid-image,
+.grid-image--aspect3x2,
+.grid-image--aspect4x3,
+.grid-image--aspect2x3,
+.grid-image--aspect3x4,
+.grid-image--aspect3x1,
+.grid-image--aspect1x1 {
+  @extend %grid-image;
+}
+
+.grid-image--aspect3x2 {
+  @media (min-width: 40em) {
+    flex: 1.5 0%;
+  }
+}
+
+.grid-image--aspect4x3 {
+  @media (min-width: 40em) {
+    flex: 1.333333 0%;
+  }
+}
+
+.grid-image--aspect2x3 {
+  @media (min-width: 40em) {
+    flex: .666667 0%;
+  }
+}
+
+.grid-image--aspect3x4 {
+  @media (min-width: 40em) {
+    flex: .75 0%;
+  }
+}
+
+.grid-image--aspect3x1 {
+  @media (min-width: 40em) {
+    flex: 3 0%;
+  }
+}
+
+.grid-image--aspect1x1 {
+  @media (min-width: 40em) {
+    flex: 1 0%;
+  }
+}

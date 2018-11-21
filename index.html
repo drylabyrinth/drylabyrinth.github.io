@@ -27,12 +27,16 @@ people:
 {% include feature_row id= "people" type = "center" %}
 {% assign sorted_people = site.people | sort: 'last_name' %}
 
+<div class="grid__wrapper">
+{% for person in sorted_people %}
+  {% include people.html type = "grid" %}
+{% endfor %}
+</div>
+
 <a name="events"></a>
 {% include feature_row id="events" type = "center" %}
 
 {% assign sorted_events = site.events | sort: 'date' %}
-
-
 {% capture now_moment %}{{ "today" | date: '%s' }}{% endcapture %}
 
 {% for event in sorted_events %}

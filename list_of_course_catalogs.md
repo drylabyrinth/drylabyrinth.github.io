@@ -1,0 +1,7 @@
+https://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/clinical-departments/dmice/current-students/student-resources/course-catalog.cfm
+https://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/basic-science-departments/biomedical-engineering/graduate-program/courses.cfm
+https://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/basic-science-departments/csee/courses/Data-Science.cfm
+https://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/basic-science-departments/csee/courses/machine-learning.cfm
+https://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/basic-science-departments/csee/courses/language.cfm
+https://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/basic-science-departments/csee/courses/computer-science.cfm
+https://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/basic-science-departments/csee/courses/research.cfm

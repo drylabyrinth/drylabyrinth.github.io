@@ -8,3 +8,4 @@ https://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/basic-s
 https://ohsu-psu-sph.org/course-directory/  
 https://www.ohsu.edu/xd/education/schools/school-of-medicine/academic-programs/graduate-studies/students/upload/Course-Offering-Fall-18-Final.pdf  
 https://www.ohsu.edu/xd/education/schools/school-of-medicine/academic-programs/graduate-studies/students/upload/Course-Offering-Winter-19-Final.pdf  
+https://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/basic-science-departments/biomedical-engineering/graduate-program/upload/MOU-OHSU-PSU-Appendix-A-final-2018.pdf

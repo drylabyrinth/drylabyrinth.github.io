@@ -1,7 +1,12 @@
 ---
 title: People
-layout: collection
+layout: default
 permalink: /people/
-collection: people
-entries_layout: grid
 ---
+{% assign sorted_people = site.people | sort: 'last_name' %}
+
+<div class="grid__wrapper">
+{% for person in sorted_people %}
+  {% include people.html type = "grid" %}
+{% endfor %}
+</div>

@@ -1,9 +1,9 @@
 # main links
 main:
   - title: "People"
-    url: "/#People"
+    url: "/#people"
   - title: "Events"
-    url: "/#Events"
+    url: "/#events"
   - title: "Contact"
     url: "/#contact"
   - title: "Ideas"

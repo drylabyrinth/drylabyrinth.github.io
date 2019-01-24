@@ -4,6 +4,8 @@ main:
     url: "/#people"
   - title: "Events"
     url: "/#events"
+  - title: "Education"
+    url: "/education/"
   - title: "Courses"
     url: "/courses.html"
   - title: "Ideas"

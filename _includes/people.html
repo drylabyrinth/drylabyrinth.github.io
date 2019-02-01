@@ -6,8 +6,8 @@
     {% assign photo = "/assets/img/no-photo.jpg" %}
     {% endif %}
 
-<div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork"> 
+  
+    <div class="element-item {{ person.department }} {{ person.research_interests | join: " " }} grid-item">
         <img src=
             "{{ photo }}"
           alt="{{ person.first_name}} {{person.last_name}}">    
@@ -20,5 +20,4 @@
     </h3>
     <em>{{ person.title }}, {{ person.department | join: ", "}}</em> <br>
     <b>Research Interests:</b> {{ person.research_interests | join: ", " }}<br>
-  </article>
-</div>
+  </div>

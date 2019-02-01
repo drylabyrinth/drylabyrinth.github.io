@@ -2,8 +2,8 @@
 first_name: Phillip
 last_name: Fry
 title: "Assistant Professor"
-department: ["Unknown"]
-research_interests: [cryogenics, sleep studies]
+department: ["CompBio"]
+research_interests: [cryogenics, sleep-studies]
 photo: /assets/img/people/phillip_fry.jpg
 email: philip_fry@gmail.com
 link: https://twitter.com/philipjfry

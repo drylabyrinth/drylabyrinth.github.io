@@ -11,13 +11,13 @@
         <img src=
             "{{ photo }}"
           alt="{{ person.first_name}} {{person.last_name}}">    
-    <h3 class="archive__item-title" itemprop="headline">
+    <h4 class="archive__item-title" itemprop="headline">
       {% if person.link and person.first_name and person.last_name %}
         <a href="{{ person.link }}">{{ person.first_name }} {{ person.last_name}}</a> 
       {% else %}
         <a href="{{ person.url | relative_url }}" rel="permalink">{{ title }}</a>
       {% endif %}
-    </h3>
+    </h4>
     <em>{{ person.title }}, {{ person.department | join: ", "}}</em> <br>
     <b>Research Interests:</b> {{ person.research_interests | join: ", " }}<br>
   </div>

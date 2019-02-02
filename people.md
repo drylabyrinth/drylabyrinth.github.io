@@ -14,12 +14,16 @@ people:
 {% assign depts = "DMICE, CLSU, BME, Biostatistics, CompBio" | split: ", " %}
 {% assign tags = "systems-biology, sleep-studies, interactive-visualization" | split: ", " %}
 
+Filter by Group:
+
 <div class="button-group filter-button-group">
 	<a class="button active btn btn--info" data-filter="*">All</a>
 	{% for tag in depts %}
 		<a class="button btn btn--info" data-filter=".{{ tag }}">{{ tag }}</a>
 	{% endfor %}
 </div>
+
+Filter by research interest:
 
 <div class="button-group filter-button-group">
 	<a class="button active btn btn--info" data-filter="*">All</a>
@@ -34,7 +38,7 @@ people:
   {% endfor %}
 </div>
 
-<script src="http://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/isotope-layout@3.0/dist/isotope.pkgd.js"></script>
 <script>
 	// init Isotope

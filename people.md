@@ -62,12 +62,13 @@ people:
 
   .grid-item {
   float: left;
-  width: 300px;
+  width: 250px;
   height: 300px;
   background: #e6e5e4;
   border: 2px solid #b6b5b4;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   padding: 16px;
+  font-size: small;
   text-align: center;
   background-color: #f1f1f1;
 }

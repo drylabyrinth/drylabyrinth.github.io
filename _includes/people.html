@@ -8,16 +8,15 @@
 
   
     <div class="element-item {{ person.department }} {{ person.research_interests | join: " " }} grid-item">
-        <img src=
-            "{{ photo }}"
-          alt="{{ person.first_name}} {{person.last_name}}">    
-    <h4 class="archive__item-title" itemprop="headline">
+        <a href="{{ person.link }}"><img src=
+          "{{ photo }}"
+        alt="{{ person.first_name}} {{person.last_name}}"> </a><br/> 
+      <b>  
       {% if person.link and person.first_name and person.last_name %}
         <a href="{{ person.link }}">{{ person.first_name }} {{ person.last_name}}</a> 
       {% else %}
-        <a href="{{ person.url | relative_url }}" rel="permalink">{{ title }}</a>
+        <a href="{{ person.link }}">{{ title }}</a>
       {% endif %}
-    </h4>
-    <em>{{ person.title }}, {{ person.department | join: ", "}}</em> <br>
+    </b>,<em>{{ person.title }}, {{ person.department | join: ", "}}</em> <br>
     <b>Research Interests:</b> {{ person.research_interests | join: ", " }}<br>
   </div>

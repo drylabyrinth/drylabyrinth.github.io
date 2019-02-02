@@ -43,7 +43,7 @@ Filter by research interest:
 <script>
 	// init Isotope
 	var $grid = $('.grid__wrapper').isotope({
-    layoutMode : 'fitRows'
+    layoutMode : 'masonry'
 	  // options
 	});
 	// filter items on button click
@@ -66,10 +66,8 @@ Filter by research interest:
 
   .grid-item {
   float: left;
-  width: 250px;
-  height: 300px;
   background: #e6e5e4;
-  border: 2px solid #b6b5b4;
+  border: 3px solid #b6b5b4;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   padding: 16px;
   font-size: small;

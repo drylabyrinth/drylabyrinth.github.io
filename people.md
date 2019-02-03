@@ -9,26 +9,26 @@ people:
 {% include feature_row %}
 
 {% include feature_row id= "people" type = "center" %}
-
 {% assign sorted_people = site.people | sort: 'last_name' %}
-{% assign depts = "DMICE, CLSU, BME, Biostatistics, CompBio" | split: ", " %}
-{% assign tags = "systems-biology, sleep-studies, interactive-visualization" | split: ", " %}
 
-Filter by Group:
+## Filter by Group:
+
+{% assign sorted_interests = site.data.research_interests | sort: 'name' %}
+{% assign sorted_groups = site.data.groups | sort: 'name' %}
 
 <div class="button-group filter-button-group">
 	<a class="button active btn btn--info" data-filter="*">All</a>
-	{% for tag in depts %}
-		<a class="button btn btn--info" data-filter=".{{ tag }}">{{ tag }}</a>
+	{% for tag in sorted_groups %}
+		<a class="button btn btn--info" data-filter=".{{ tag.acronym }}">{{ tag.name }}</a>
 	{% endfor %}
 </div>
 
-Filter by research interest:
+## Filter by research interest:
 
 <div class="button-group filter-button-group">
 	<a class="button active btn btn--info" data-filter="*">All</a>
-	{% for tag in tags %}
-		<a class="button btn btn--info" data-filter=".{{ tag }}">{{ tag }}</a>
+	{% for tag in sorted_interests %}
+		<a class="button btn btn--info" data-filter=".{{ tag.tag }}">{{ tag.name }}</a>
 	{% endfor %}
 </div>
 
@@ -58,23 +58,24 @@ Filter by research interest:
 </script>
 
 <style type="text/css">
+
 	a.button.active {
 		background: #F76B48;
-		border: 1px solid #F76B48;
 		color: #fff;
 	}
 
   .grid-item {
   float: left;
+	width: 300px;
   background: #e6e5e4;
   border: 3px solid #b6b5b4;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   padding: 16px;
-  font-size: small;
   text-align: center;
   background-color: #f1f1f1;
 }
 
 .grid-item--width2 { width: 100px; }
 .grid-item--height2 { height: 100px; }
+
 </style>

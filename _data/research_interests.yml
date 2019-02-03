@@ -1,0 +1,20 @@
+- name: Systems Biology
+  tag: systems-biology
+- name: Computational Workflows
+  tag: computational-workflows
+- name: R
+  tag: r
+- name: Python
+  tag: python
+- name: Natural Language Processing
+  tag: nlp
+- name: Biostatistics
+  tag: biostatistics
+- name: Machine Learning
+  tag: ml
+- name: Bioinformatics
+  tag: bioinformatics 
+- name: Computational Biology
+  tag: comp-bio
+- name: Large Scale Computing
+  tag: large-scale-computing

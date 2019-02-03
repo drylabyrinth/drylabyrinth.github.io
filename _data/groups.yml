@@ -1,0 +1,20 @@
+- name: Department of Medical Informatics and Clinical Epidemiology
+  acronym: "DMICE"
+  url: "https://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/clinical-departments/dmice/"
+  excerpt:
+- name: Center for Spoken Language Understanding
+  acronym: "CSLU"
+  url: "https://ohsu-psu-sph.org/biostatistics/"
+  excerpt:
+- name: Department of Biomedical Engineering
+  acronym: "BME"
+  url: https://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/basic-science-departments/biomedical-engineering/research/computational-biology.cfm
+  excerpt:
+- name: Biostatistics
+  acronym: "biostatistics"
+  url: "https://www.ohsu.edu/xd/research/centers-institutes/center-for-spoken-language-understanding/"
+  excerpt:
+- name: Computational Biology Program
+  acronym: "comp-bio"
+  url: "https://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/computational-biology/"
+  excerpt:

@@ -22,7 +22,8 @@ last_name: ""
 title: "Assistant Professor" #your title  
 department: ["BME", "comp-bio"] #can have multiple departments  
 research_interests: ["python", "comp-bio"] #can have multiple interests  
-github: "" #just the id, like "laderast"  
+github: "" #just the id, like "laderast"
+email: ""  
 link: "" #any url, include the https://  
 ---
 ```
@@ -48,7 +49,7 @@ We welcome everyone who wants to participate in the computational forum. You can
   url: ""
   excerpt: "" #no line breaks, please. keep this short, 2-3 sentences max.
 ```
-4. Submit a pull request to our repo from your fork. When you've set up the pull request, you can see your changes by clicking on the `deploy preview`. 
+4. Submit a pull request to our repo from your fork. When you've set up the pull request, you can see your changes by clicking on the `deploy preview`. We will review your request, make any needed fixes, and have it up as soon as possible.
 
 ## Adding a research interest
 

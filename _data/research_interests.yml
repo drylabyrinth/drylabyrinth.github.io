@@ -20,3 +20,7 @@
   tag: "large-scale-computing"
 - name: "Data Integration"
   tag: "data-integration"
+- name: "Interactive Visualization"
+  tag: "interactive-visualization"
+- name: "Genomics"
+  tag: "genomics"

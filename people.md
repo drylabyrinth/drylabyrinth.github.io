@@ -4,7 +4,7 @@ layout: splash
 permalink: /people/
 people:
   - title: "People"
-    excerpt: "OHSU Computation consists of many groups, staff, faculty, and students."
+    excerpt: "OHSU Computation consists of many groups, staff, faculty, and students. To add yourself, look at the [instructions in the README for this repository.](https://github.com/drylabyrinth/drylabyrinth.github.io/blob/master/README.md)"
 ---
 {% include feature_row %}
 
@@ -34,7 +34,7 @@ people:
 
 <div class="grid__wrapper">
 	{% for person in sorted_people %}
-    {% include people.html type="grid" %}
+    {% include people.html %}
   {% endfor %}
 </div>
 
@@ -43,7 +43,7 @@ people:
 <script>
 	// init Isotope
 	var $grid = $('.grid__wrapper').isotope({
-    layoutMode : 'masonry'
+    layoutMode : 'fitRows'
 	  // options
 	});
 	// filter items on button click
@@ -51,10 +51,17 @@ people:
 	  var filterValue = $(this).attr('data-filter');
 	  $grid.isotope({ filter: filterValue });
 	});
+
 	$('.button-group a.button').on('click', function(){
 		$('.button-group a.button').removeClass('active');
 		$(this).addClass('active');
 	});
+
+$(function() {
+	$(".block").on("click", function() {
+		$(".info").toggleClass("active");
+	});
+});
 </script>
 
 <style type="text/css">
@@ -64,18 +71,67 @@ people:
 		color: #fff;
 	}
 
-  .grid-item {
-  float: left;
-	width: 300px;
-  background: #e6e5e4;
-  border: 3px solid #b6b5b4;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  padding: 16px;
-  text-align: center;
-  background-color: #f1f1f1;
+body {
+	height: 100%;
+	cursor: default;
 }
 
-.grid-item--width2 { width: 100px; }
-.grid-item--height2 { height: 100px; }
+#card {
+	float: left;
+	width: 400px;
+	height: 400px;
+	margin: 10% auto;
+	border-radius: 8px;
+	box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2), 0px 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+#profile {
+	cursor: grabbing;
+	width: 400px;
+	height: 350px;
+	position: relative;
+	top: 30px;
+	border-radius: 8px;
+}
+
+img {
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	top: 32px;
+	display: block;
+	margin: 0 auto;
+}
+
+.card1 {
+	color: rgba(38, 50, 56, 1);
+	font-family: 'Roboto Condensed', sans-serif !important;
+	font-size: 30px !important;
+	font-weight: 700;
+	text-align: center;
+	position: relative;
+	top: 20px;
+}
+
+.icons {
+	text-align: center;
+	position: relative;
+	top: 15px;
+}
+
+.card2 {
+	color: rgba(38, 50, 56, .87);
+	font-family: 'Roboto Condensed', sans-serif !important;
+	font-size: 15px !important;
+	font-weight: 400;
+	text-align: center;
+	position: relative;
+	top: 30px;
+}
+.card3 {
+	color: rgba(255, 255, 255, 1);
+	transition: color 0.4s;
+	text-decoration: none;
+}
 
 </style>

@@ -1,17 +1,27 @@
 
-{% assign include.type = "grid" %}
-  
-    <div class="element-item {{ person.department | join: " " }} {{ person.research_interests | join: " " }} grid-item">
-        <a href="{{ person.link }}">  
-          {% if person.github %}
-          <img src="https://avatars.githubusercontent.com/{{ person.github }}?s=200" class="img-responsive img-circle" alt="">
-          <h4>{{ person.first_name }} {{person.last_name}}</h4><br/>
-          {% else %}
-          <i class="fa fa-user"></i><br/>
-          <h4>{{ person.first_name }} {{ person.last_name}}</h4>
-          {% endif %}
-        </a>
-          <em>{{ person.title }}, {{ person.department | join: ", "}}</em> <br>
-    <b>Research Interests:</b> {{ person.research_interests | join: ", " }}<br>
-    </div>
-
+<!-- card code and css from https://codepen.io/Masquetina/pen/dYYxeM/ -->
+      <div id="card" class="card {{ person.last_name }} {{ person.department | join: " " }} {{ person.research_interests | join: " " }}">
+          <div id="color"></div>
+          <div id="profile">
+              <!-- here’s the avatar -->
+              {% if person.github %}
+              <img class="block" src="https://avatars.githubusercontent.com/{{ person.github }}?s=200" alt="photo of {{person.github}}" />
+              {% else %}
+              <img class="block" src="/assets/img/no-photo.jpg" >
+              {% endif %}            
+            <h1 class="card1">{{ person.first_name }} {{ person.last_name }}</h1>
+            <p class="card2">{{ person.title }}, {{ person.department | join: ", "}}</p>
+            <p class="card2">{{ person.research_interests | join: ", "}}</p> 
+            <p class="icons">
+                {% if person.link %}
+                <a class="link" href="{{ person.link }}" target="_blank"><i class="fa fa-home fa-1x social"></i></a>
+                {% endif %}
+                {% if person.github %}
+                <a class="link" href="https://github.com/{{ person.github }}" target="_blank"><i class="fa fa-github fa-1x social"></i></a>
+                {% endif %}
+                {% if person.email %}
+                <a class="link" href="emailto:{{ person.email }}" target="_blank"><i class="fa fa-email fa-1x social"></i></a>
+                {% endif %}
+                </p>    
+        </div>
+        </div>

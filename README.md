@@ -6,8 +6,8 @@ We want everyone who is interested to be a member of the Computational Forum, re
 
 Before you add yourself, open these two links in another tab:
 
-[List of Departments](https://github.com/drylabyrinth/drylabyrinth.github.io/blob/master/_data/groups.yml)
-[List of Research Interests](https://github.com/drylabyrinth/drylabyrinth.github.io/blob/master/_data/research_interests.yml)
+- [List of Departments](https://github.com/drylabyrinth/drylabyrinth.github.io/blob/master/_data/groups.yml)  
+- [List of Research Interests](https://github.com/drylabyrinth/drylabyrinth.github.io/blob/master/_data/research_interests.yml)
 
 Now, fork the repository and create a new branch with your name, such as "ted-laderas". You can do this all on GitHub.
 

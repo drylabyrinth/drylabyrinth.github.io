@@ -4,7 +4,11 @@
   excerpt: ""
 - name: Center for Spoken Language Understanding
   acronym: "CSLU"
-  url: "https://ohsu-psu-sph.org/biostatistics/"
+  url: "https://www.ohsu.edu/xd/research/centers-institutes/center-for-spoken-language-understanding/"
+  excerpt: ""
+- name: OHSU Center for Spatial Systems Biomedicine
+  acronym: "OCSSB"
+  url: "https://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/basic-science-departments/biomedical-engineering/spatial-systems-biomedicine/"
   excerpt: ""
 - name: Department of Biomedical Engineering
   acronym: "BME"

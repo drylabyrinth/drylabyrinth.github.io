@@ -8,5 +8,3 @@ main:
     url: "/education/"
   - title: "Courses"
     url: "/courses.html"
-  - title: "Ideas"
-    url: "/ideas/"

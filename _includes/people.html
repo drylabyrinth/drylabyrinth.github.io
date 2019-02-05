@@ -11,7 +11,7 @@
               {% endif %}            
             <h1 class="card1">{{ person.first_name }} {{ person.last_name }}</h1>
             <p class="card2">{{ person.title }}, {{ person.department | join: ", "}}</p>
-            <p class="card2">{{ person.research_interests | join: ", "}}</p> 
+            <p class="card2">Research Interests: {{ person.research_interests | sort | join: ", "}}</p> 
             <p class="icons">
                 {% if person.link %}
                 <a class="link" href="{{ person.link }}" target="_blank"><i class="fa fa-home fa-1x social"></i></a>

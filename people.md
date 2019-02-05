@@ -4,10 +4,9 @@ layout: splash
 permalink: /people/
 people:
   - title: "People"
-    excerpt: "OHSU Computation consists of many groups, staff, faculty, and students. To add yourself, look at the [instructions in the README for this repository.](https://github.com/drylabyrinth/drylabyrinth.github.io/blob/master/README.md)"
+    excerpt: "OHSU Computation consists of many groups, staff, faculty, and students. If you want to join, we want you! To add yourself, look at the [instructions in the README for this repository.](https://github.com/drylabyrinth/drylabyrinth.github.io/blob/master/README.md)"
 ---
 {% include feature_row %}
-
 {% include feature_row id= "people" type = "center" %}
 {% assign sorted_people = site.people | sort: 'last_name' %}
 
@@ -42,10 +41,12 @@ people:
 <script src="https://unpkg.com/isotope-layout@3.0/dist/isotope.pkgd.js"></script>
 <script>
 	// init Isotope
+
 	var $grid = $('.grid__wrapper').isotope({
     layoutMode : 'fitRows'
 	  // options
 	});
+
 	// filter items on button click
 	$('.filter-button-group').on( 'click', 'a', function() {
 	  var filterValue = $(this).attr('data-filter');
@@ -78,8 +79,8 @@ body {
 
 #card {
 	float: left;
-	width: 400px;
-	height: 400px;
+	width: 350px;
+	height: 350px;
 	margin: 10% auto;
 	border-radius: 8px;
 	box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2), 0px 2px 6px rgba(0, 0, 0, 0.4);
@@ -87,7 +88,7 @@ body {
 
 #profile {
 	cursor: grabbing;
-	width: 400px;
+	width: 350px;
 	height: 350px;
 	position: relative;
 	top: 30px;
@@ -126,7 +127,7 @@ img {
 	font-weight: 400;
 	text-align: center;
 	position: relative;
-	top: 30px;
+	top: 10px;
 }
 .card3 {
 	color: rgba(255, 255, 255, 1);

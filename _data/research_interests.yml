@@ -24,3 +24,7 @@
   tag: "interactive-visualization"
 - name: "Genomics"
   tag: "genomics"
+- name: "Ontology"
+  tag: "ontology"
+- name: "Biocuration"
+  tag: "biocuration"

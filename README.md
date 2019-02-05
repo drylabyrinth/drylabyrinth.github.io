@@ -19,13 +19,20 @@ Before you add yourself, open these two links in another tab:
 ---
 first_name: ""      
 last_name: ""  
-title: "Assistant Professor" #your title (use your primary one)
-department: ["BME", "comp-bio"] #can have multiple departments  
-research_interests: ["python", "comp-bio"] #can have multiple interests  
-github: "" #just the id, like "laderast"
-email: ""  #optional
-link: "" #any url, include the https://  
-excerpt: "" # a little bio - no more than 200 characters. We may integrate this.
+#your title (use your primary one)
+title: "Assistant Professor" 
+#can have multiple departments
+department: ["BME", "comp-bio"]   
+#can have multiple interests 
+research_interests: ["python", "comp-bio"]  
+#just the id, like "laderast"
+github: ""
+#optional email - delete this line if you don't want to include it
+email: ""
+#any url, include the https:// 
+link: ""   
+# a little bio - no more than 200 characters. We may integrate this.
+excerpt: "" 
 ---
 ```
 4. Make sure that the entry in the `department:` field matches the `acronym` field for your department in the `_data/groups.yml` file. For example, in the `_data/groups.yml` file, you can see that `Department of Medical Informatics and Clinical Epidemiology` has the acronym `DMICE`. You can have multiple departments by separating them with a `,`.

@@ -1,28 +1,24 @@
-- name: Department of Medical Informatics and Clinical Epidemiology
+- name: "Department of Medical Informatics and Clinical Epidemiology"
   acronym: "DMICE"
   url: "https://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/clinical-departments/dmice/"
   excerpt: ""
-- name: Center for Spoken Language Understanding
+- name: "Center for Spoken Language Understanding"
   acronym: "CSLU"
   url: "https://www.ohsu.edu/xd/research/centers-institutes/center-for-spoken-language-understanding/"
   excerpt: ""
-- name: OHSU Center for Spatial Systems Biomedicine
-  acronym: "OCSSB"
-  url: "https://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/basic-science-departments/biomedical-engineering/spatial-systems-biomedicine/"
-  excerpt: ""
-- name: Department of Biomedical Engineering
+- name: "Department of Biomedical Engineering"
   acronym: "BME"
   url: https://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/basic-science-departments/biomedical-engineering/research/computational-biology.cfm
   excerpt: ""
-- name: Biostatistics
+- name: "Biostatistics"
   acronym: "biostatistics"
   url: "https://www.ohsu.edu/xd/research/centers-institutes/center-for-spoken-language-understanding/"
   excerpt: ""
-- name: Computational Biology Program
+- name: "Computational Biology Program"
   acronym: "comp-bio"
   url: "https://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/computational-biology/"
   excerpt: ""
-- name: OHSU Library
+- name: "OHSU Library"
   acronym: "ohsu-library"
   url: "https://www.ohsu.edu/library"
   excerpt: ""
@@ -41,4 +37,8 @@
 - name: "Translational and Integrative Science Lab"
   acronym: "tislab"
   url: "https://tislab.org"
+  excerpt: ""
+- name: "OHSU Center for Spatial Systems Biomedicine"
+  acronym: "OCSSB"
+  url: "https://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/basic-science-departments/biomedical-engineering/spatial-systems-biomedicine/"
   excerpt: ""

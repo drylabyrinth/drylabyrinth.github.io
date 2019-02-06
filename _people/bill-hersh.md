@@ -6,7 +6,7 @@ title: "Professor and Chair"
 #can have multiple departments
 department: ["DMICE"]   
 #can have multiple interests 
-research_interests: ["python", "NLP"]  
+research_interests: ["python", "nlp"]  
 #just the id, like "laderast"
 github: "williamhersh"
 #optional email - delete this line if you don't want to include it

@@ -7,7 +7,7 @@ department: ["BME"]
 #can have multiple interests 
 research_interests: ["diabetes", "artificial-intelligence","machine learning","signal processing","sensors"]  
 #just the id, like "laderast"
-github: ""
+github: "petejacobs"
 #optional email - delete this line if you don't want to include it
 email: ""
 #any url, include the https:// 

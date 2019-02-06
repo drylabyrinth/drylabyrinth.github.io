@@ -123,6 +123,10 @@ img {
 	top: 10px;
 }
 
+.isotope .isotope-item {
+    padding-bottom: 20px;
+}
+
 </style>
 
 <script>

@@ -74,11 +74,15 @@ We want people to populate the [research interest list](https://github.com/dryla
 
 4. Submit a pull request to our repo from your fork. When you've set up the pull request, you can see your changes by clicking on the `deploy preview`. 
 
-## Adding a page
+## Adding a page to the site
 
 Adding a page is pretty easy. You can just add a `.md` at the root of the site, and it will show up. For example, I can create a `ideas.md` in the root of the folder, and you can see it at http://drylabyrinth.netlify.com/ideas/.
 
 In order to add it to the menu, you'll have to edit the `_data/navigation.yml` file. 
+
+## Editing a page on the stie
+
+Each page mostly corresponds to a `.md` file. For example, the education page is at [`/education.md`](https://github.com/drylabyrinth/drylabyrinth.github.io/blob/master/education.md). You can make edits to any page and make a pull request. 
 
 ## Adding your courses to the list
 

@@ -96,6 +96,7 @@ img {
 	text-align: center;
 	position: relative;
 	top: 20px;
+	padding-bottom: 20px;
 }
 
 .icons {
@@ -122,11 +123,6 @@ img {
 	position: relative;
 	top: 10px;
 }
-
-.isotope .isotope-item {
-    padding-bottom: 20px;
-}
-
 </style>
 
 <script>

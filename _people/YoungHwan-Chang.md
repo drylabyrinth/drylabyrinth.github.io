@@ -6,7 +6,7 @@ title: "Assistant Professor"
 #can have multiple departments
 department: ["BME", "comp-bio", "OCSSB"]   
 #can have multiple interests 
-research_interests: ["quantiative image analysis", "deep learning", "control theory", "mutiplexed imaging"]  
+research_interests: ["quantitative image analysis", "deep learning", "control theory", "mutiplexed imaging"]  
 #just the id, like "laderast"
 github: "chanyo"
 #optional email - delete this line if you don't want to include it

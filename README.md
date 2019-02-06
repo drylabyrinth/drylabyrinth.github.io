@@ -13,7 +13,7 @@ Before you add yourself, open these two links in another tab:
 
 2. In the `_people` folder, create a new file with your name (you can use the "Create New File Button"). Make sure it ends with the `.md` extension, such as `ted-laderas.md`.
 
-3. Paste the following template into your new file and fill it out. 
+3. Paste the following template into your new file and fill it out. Note that the `---` before and after the text is important. If this is not included, your profile will not show.
 
 ```
 ---

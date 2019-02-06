@@ -132,7 +132,8 @@ img {
 	var $container = $(".grid__wrapper").imagesLoaded(function(){
 		$container.isotope({
 			layoutMode : 'fitRows',
-			itemSelector: '.card'
+			itemSelector: '.card',
+			sortBy: 'random'
 			
 	  		// options
 		});

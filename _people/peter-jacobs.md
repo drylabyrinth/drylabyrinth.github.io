@@ -1,3 +1,4 @@
+---
 first_name: "Peter"      
 last_name: "Jacobs"  
 #your title (use your primary one)
@@ -14,3 +15,4 @@ email: ""
 link: "http://www.ohsu.edu/jacobs"   
 # a little bio - no more than 200 characters. We may integrate this.
 excerpt: "My lab is the Artificial Intelligence for Medical Systems (AIMS) Lab." 
+---

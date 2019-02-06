@@ -83,3 +83,9 @@ In order to add it to the menu, you'll have to edit the `_data/navigation.yml` f
 ## Adding your courses to the list
 
 Coming soon - there will be an editable google sheet that will populate the course list.
+
+## Acknowledgements
+
+This website is built from the [minimal-mistakes template](https://mmistakes.github.io/minimal-mistakes/). Code for the people page was adapted from https://github.com/cagrimmett/jekyll-tools. CSS card template was adapted from https://codepen.io/Masquetina/pen/dYYxeM/. 
+
+This website uses JQuery, Isotope, and ImagesLoaded.

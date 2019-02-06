@@ -133,6 +133,7 @@ img {
 		$container.isotope({
 			layoutMode : 'fitRows',
 			itemSelector: '.card'
+			
 	  		// options
 		});
 	});

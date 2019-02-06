@@ -6,7 +6,7 @@ title: "Professor"
 #can have multiple departments
 department: ["BME", "OCSSB"]   
 #can have multiple interests 
-research_interests: ["biophysics and experimental data analysis", "molecular simulation", "cell simulation", "mechanistic biophysics"]  
+research_interests: ["biophysics-data-analysis", "cell-modeling", "molecular-dynamics", "mechanistic biophysics", "systems-biology"]  
 #just the id, like "laderast"
 github: "dmzuckerman"
 #optional email - delete this line if you don't want to include it

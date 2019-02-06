@@ -6,6 +6,16 @@ people:
   - title: "People"
     excerpt: "OHSU Computation consists of many groups, staff, faculty, and students. If you want to join, we want you! To add yourself, look at the [instructions in the README for this repository.](https://github.com/drylabyrinth/drylabyrinth.github.io/blob/master/README.md)"
 ---
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
 {% include feature_row %}
 {% include feature_row id= "people" type = "center" %}
 {% assign sorted_people = site.people | sort: 'last_name' %}
@@ -37,33 +47,7 @@ people:
   {% endfor %}
 </div>
 
-<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/isotope-layout@3.0/dist/isotope.pkgd.js"></script>
-<script>
-	// init Isotope
 
-	var $grid = $('.grid__wrapper').isotope({
-    layoutMode : 'fitRows'
-	  // options
-	});
-
-	// filter items on button click
-	$('.filter-button-group').on( 'click', 'a', function() {
-	  var filterValue = $(this).attr('data-filter');
-	  $grid.isotope({ filter: filterValue });
-	});
-
-	$('.button-group a.button').on('click', function(){
-		$('.button-group a.button').removeClass('active');
-		$(this).addClass('active');
-	});
-
-$(function() {
-	$(".block").on("click", function() {
-		$(".info").toggleClass("active");
-	});
-});
-</script>
 
 <style type="text/css">
 
@@ -123,16 +107,45 @@ img {
 .card2 {
 	color: rgba(38, 50, 56, .87);
 	font-family: 'Roboto Condensed', sans-serif !important;
-	font-size: 15px !important;
+	font-size: 14px !important;
 	font-weight: 400;
 	text-align: center;
 	position: relative;
 	top: 10px;
 }
 .card3 {
-	color: rgba(255, 255, 255, 1);
-	transition: color 0.4s;
-	text-decoration: none;
+	color: rgba(38, 50, 56, .87);
+	font-family: 'Roboto Condensed', sans-serif !important;
+	font-size: 12px !important;
+	font-weight: 400;
+	text-align: center;
+	position: relative;
+	top: 10px;
 }
 
 </style>
+
+<script>
+
+	// init Isotope
+
+	var $container = $(".grid__wrapper").imagesLoaded(function(){
+		$container.isotope({
+			layoutMode : 'fitRows',
+			itemSelector: '.card'
+	  		// options
+		});
+	});
+  
+	// filter items on button click
+	$('.filter-button-group').on( 'click', 'a', function() {
+	  var filterValue = $(this).attr('data-filter');
+	  $container.isotope({ filter: filterValue });
+	});
+
+	$('.button-group a.button').on('click', function(){
+		$('.button-group a.button').removeClass('active');
+		$(this).addClass('active');
+	});
+
+</script>

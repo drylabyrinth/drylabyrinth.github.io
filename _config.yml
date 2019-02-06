@@ -100,7 +100,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "OHSU Computation Committee"
+  name             : "OHSU Computational Forum"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "We are the unified groups across OHSU who do computation"
   location         : "Portland, OR"
@@ -205,7 +205,6 @@ permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
 
 # Plugins (previously gems:)
 plugins:

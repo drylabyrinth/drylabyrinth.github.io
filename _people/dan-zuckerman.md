@@ -1,3 +1,4 @@
+---
 first_name: "Daniel"      
 last_name: "Zuckerman"  
 #your title (use your primary one)
@@ -14,3 +15,4 @@ email: "zuckermd@ohsu.edu"
 link: "https://www.ohsu.edu/school-of-medicine/zuckerman-lab"   
 # a little bio - no more than 200 characters. We may integrate this.
 excerpt: "Molecular-to-cell-scale modeling. Biophysical/statistical theory for analysis of simulation and experimental data.  Molecular machines and mechanisms.  Single-particle-tracking microscopy." 
+---

@@ -72,7 +72,7 @@ body {
 
 #profile {
 	cursor: grabbing;
-	width: 350px;
+	width: 330px;
 	height: 350px;
 	position: relative;
 	top: 30px;
@@ -95,14 +95,14 @@ img {
 	font-weight: 700;
 	text-align: center;
 	position: relative;
-	top: 20px;
+	top: 10px;
 	padding-bottom: 20px;
 }
 
 .icons {
 	text-align: center;
 	position: relative;
-	top: 15px;
+	top: 10spx;
 }
 
 .card2 {
@@ -131,7 +131,6 @@ img {
 
 	var $container = $(".grid__wrapper").imagesLoaded(function(){
 		$container.isotope({
-			layoutMode : 'fitRows',
 			itemSelector: '.card',
 			sortBy: 'random'
 			

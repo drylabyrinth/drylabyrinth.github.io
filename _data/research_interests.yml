@@ -34,3 +34,5 @@
   tag: "cm"
 - name: "Biophysics, Data Analysis"
   tag: "bps"
+- name: "Neuroscience"
+  tag: "neuroscience"

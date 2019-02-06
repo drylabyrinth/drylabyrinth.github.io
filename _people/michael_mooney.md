@@ -4,7 +4,7 @@ last_name: "Mooney"
 #your title (use your primary one)
 title: "Assistant Professor" 
 #can have multiple departments
-department: ["DMICE", "Knight Cancer Institute"]   
+department: ["DMICE", "Knight"]   
 #can have multiple interests 
 research_interests: ["genomics", "ml", "systems-biology", "large-scale-computing", "r", "python", "comp-bio"]  
 #just the id, like "laderast"

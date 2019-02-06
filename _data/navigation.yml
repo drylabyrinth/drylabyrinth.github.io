@@ -8,3 +8,5 @@ main:
     url: "/education/"
   - title: "Courses"
     url: "/courses.html"
+  - title: "Code of Conduct"
+    url: /code_of_conduct/

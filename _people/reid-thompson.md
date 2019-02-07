@@ -4,7 +4,7 @@ last_name: "Thompson"
 #your title (use your primary one)
 title: "Assistant Professor" 
 #can have multiple departments
-department: ["BME", "comp-bio", "RadMed"]   
+department: ["PVAMC", "RadMed", "comp-bio", "BME", "CEDAR"]   
 #can have multiple interests 
 research_interests: ["immunonc", "comp-bio", "biomarker", "early-detection"]  
 #just the id, like "laderast"

@@ -8,7 +8,7 @@ department: ["PVAMC", "RadMed", "comp-bio", "BME", "CEDAR"]
 #can have multiple interests 
 research_interests: ["immunonc", "comp-bio", "biomarker", "early-detection"]  
 #just the id, like "laderast"
-github: "pdxgx"
+github: "reidt03"
 #optional email - delete this line if you don't want to include it
 email: "thompsre@ohsu.edu"
 #any url, include the https:// 

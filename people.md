@@ -132,7 +132,7 @@ img {
 	var $container = $(".grid__wrapper").imagesLoaded(function(){
 		$container.isotope({
 			itemSelector: '.card',
-			sortBy: 'random'
+			//sortBy: 'random'
 			
 	  		// options
 		});

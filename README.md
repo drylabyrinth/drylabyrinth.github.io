@@ -80,7 +80,7 @@ Adding a page is pretty easy. You can just add a `.md` at the root of the site, 
 
 In order to add it to the menu, you'll have to edit the `_data/navigation.yml` file. 
 
-## Editing a page on the stie
+## Editing a page on the site
 
 Each page mostly corresponds to a `.md` file. For example, the education page is at [`/education.md`](https://github.com/drylabyrinth/drylabyrinth.github.io/blob/master/education.md). You can make edits to any page and make a pull request. 
 

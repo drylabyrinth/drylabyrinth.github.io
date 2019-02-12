@@ -11,7 +11,18 @@
               {% endif %}            
             <h1 class="card1">{{ person.first_name }} {{ person.last_name }}</h1>
             <p class="card2"><em>{{ person.title }}</em>, {{ person.department | join: ", "}}</p>
-            <p class="card3">Interests: {{ person.research_interests | sort | join: ", "}}</p> 
+            <p class="card3">Interests: {% for tag in person.research_interests %}
+                    {% assign counter = 0 %}
+                    {% for r_item in site.data.research_interests %}
+                       {% if tag == r_item.tag %}
+                        {{r_item.name}} 
+                        {% assign counter = counter | plus: 1 %}                                   
+                        {% endif %}
+                    {% endfor %}
+                    {% if counter == 0 %}{{tag}}{% endif %}
+                    {% if forloop.last == false %}|{% endif %}
+                    {% endfor %}
+                    </p> 
             <p class="icons">
                 {% if person.link %}
                 <a class="link" href="{{ person.link }}" target="_blank"><i class="fa fa-home fa-1x social"></i></a>

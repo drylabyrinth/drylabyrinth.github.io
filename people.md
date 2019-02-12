@@ -96,13 +96,11 @@ img {
 	text-align: center;
 	position: relative;
 	top: 10px;
-	padding-bottom: 20px;
 }
 
 .icons {
 	text-align: center;
 	position: relative;
-	top: 10spx;
 }
 
 .card2 {
@@ -112,7 +110,6 @@ img {
 	font-weight: 400;
 	text-align: center;
 	position: relative;
-	top: 10px;
 }
 .card3 {
 	color: rgba(38, 50, 56, .87);

@@ -21,7 +21,7 @@ A multi-disciplinary program in the basic biomedical sciences featuring a wide r
 
 ## [Computer Science and Electrical Engineering (CS/EE)](https://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/basic-science-departments/csee/) 
 
-A graduate program that focuses on work in Natural Language Processing, Data Science, and Machine Learning.
+A graduate program that offers computational courses in Machine Learning, Data Science, High-Performance Computing, Signal and Image Processing, Speech and Natural Language Processing, and many more.
 
 ## [OHSU/PSU School of Public Health](https://ohsu-psu-sph.org/degreeprograms/) 
 

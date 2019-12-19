@@ -12,7 +12,7 @@ github: "lopierra"
 #optional email - delete this line if you don't want to include it
 email: "lpi@ohsu.edu"
 #any url, include the https:// 
-link: ""   
+# link: ""   
 # a little bio - no more than 200 characters. We may integrate this.
-excerpt: "" 
+# excerpt: "" 
 ---
